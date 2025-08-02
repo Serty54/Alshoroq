@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ElectroMart - Products</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    function addToCart(productName) {
+      alert(productName + " added to cart!");
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>مؤسسة الشروق أولاد عبد النبي</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="products" style="padding: 40px 0;">
+    <div class="container">
+      <h2>Popular Products</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="bingo9.jpeg" alt="Switch" />
+          <h3>Bingo Light Bulb</h3>
+          <p>EGP 10</p>
+          <button onclick="addToCart('Light Switch')">Add to Cart</button>
+        </div>
+        <div class="product-card">
+          <img src="https://via.placeholder.com/150" alt="Cable" />
+          <h3>Copper Cable 1M 1mm</h3>
+          <p>EGP 8</p>
+          <button onclick="addToCart('Copper Cable 5m')">Add to Cart</button>
+        </div>
+        <!-- More product cards here -->
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 ElectroMart. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
