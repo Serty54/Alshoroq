@@ -10,7 +10,7 @@
 body {
   background: #f9f9f9;
   color: #222;
-  padding: 80px;
+  padding-bottom: 80px;
 }
 
 .container {
@@ -158,5 +158,6 @@ footer {
   z-index: 999;
   } 
 }
+
 
 
