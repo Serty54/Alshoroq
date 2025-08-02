@@ -57,7 +57,7 @@ nav a {
 .hero .btn {
   margin-top: 15px;
   padding: 10px 20px;
-  background: #e94560;
+  background: blue;
   color: white;
   border: none;
   border-radius: 5px;
@@ -152,3 +152,4 @@ footer {
   padding: 20px 0;
   font-size: 0.9rem;
 }
+
